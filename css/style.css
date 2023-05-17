@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: "Grover Caps";
+}
+
+:root {
+    --bg-color: #00233B;
+    --text-color: #000;
+    --second-color: #fff;
+    --main-color: #55C2B5;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    background: var(--second-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+
+/* SECTION PRINCIPAL =================================================== */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 22px 15%;
+    box-shadow: 3px 1.4px 5px 4px #ccc;
+    transition: all .45s ease;
+}
+
+.header2 {
+    /* configuracoes quando o usuario clica no menu hamburguer */
+    background-color: var(--second-color);
+    transition: all .45s ease;
+}
+
+.logo {
+    /* configuracoes da logo */
+    width: 250px;
+    height: auto;
+}
+
+.navlist {
+    /* configura os links do header */
+    display: flex;
+}
+
+.navlist a {
+    /* estilo dos links do header */
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin: 0 25px;
+    transition: all .45s ease;
+    text-decoration: none;
+}
+
+.navlist a:hover {
+    /* ao passar o mouse por cima dos links do header */
+    color: var(--main-color);
+}
+
+.navlist a:active {
+    /* estilo do link ativo */
+    color: var(--text-color);
+}
+
+#menu-icon {
+    /* estilo do menu hamburguer (icone) */
+    font-size: 35px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+
+section {
+    /* configuracao padrao para todas as sessoes */
+    padding: 160px 15% 120px;
+}
+
+.home {
+    /* estilo da section home */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home video {
+    position: absolute;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+
+    filter: brightness(80%);
+}
+
+.home .home-text {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.home .home-text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 5px 2px #3a3a3a;
+}
+
+.home .home-text h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 5px 2px #3a3a3a;
+}
+
+.home .home-text p {
+    margin-top: 3rem;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 2px 2px #3a3a3a;
+}
+
+.slide {
+    /* botão saiba mais */
+    margin-bottom: 20px;
+}
+
+.one {
+    /* texto: "Olá" */
+    display: inline-block;
+    margin-right: 15px;
+    height: 32px;
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--main-color);
+    color: var(--text-color);
+}
+
+.one:hover {
+    /* hover do texto: "Olá" */
+    transform: scale(1.1);
+    transition: all .45s ease;
+}
+
+.two {
+    /* texto: eu sou */
+    display: inline-block;
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text h1 {
+    /* texto: "Nicholas!" */
+    font-size: var(--big-font);
+    font-weight: 700;
+    color: var(--text-color);
+    list-style: 1.1;
+    margin: 0 0 8px;
+}
+
+.home-text h3 {
+    /* texto: "Desenvolvedor Front-end." */
+    color: var(--text-color);
+    margin: 0 0 35px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.home-text p {
+    /* texto: "Técnico formado..." */
+    color: var(--text-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-family: "Muller";
+}
+
+.button {
+    /* botões Veja os Produtos e Entre em Contato */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    /* estilo botão Veja os Produtos */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    background: var(--second-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 7px 7px -1px #ccc;
+}
+
+.btn:hover {
+    /* estilo botão Veja os Produtos */
+    transform: scale(0.9);
+}
+
+.btn2 {
+    /* botão Entre em Contato */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    background: var(--second-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    width: 100%;
+    text-align: center;
+    margin-left: 35px;
+    box-shadow: 0 7px 7px -1px #ccc;
+}
+
+.btn2:hover {
+    /* botão Entre em Contato */
+    transform: scale(0.9);
+}
+
+.btn2 span i {
+    /* icone do botão Veja meu Trabalho */
+    height: 55px;
+    width: 55px;
+    background: var(--main-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+
+.btn2 span i:hover {
+    /* hover do icone do botao veja meu trabalho */
+    transform: scale(1.1) translateY(5px);
+}
+
+#seta {
+    font-size: 4rem;
+    color: #fff;
+    padding-top: 6rem;
+}
+
+#seta:hover {
+    transition: all .45s ease;
+    transform: translateY(10px);
+}
+
+/* SECTION PRINCIPAL =================================================== */
+
+
+/* SECTION PRODUTOS ==================================================== */
+
+.main-texto {
+    /* texto da section servicos */
+    text-align: center;
+}
+
+.main-texto p {
+    /* p da section servicos */
+    font-size: 15px;
+    color: var(--second-color);
+    margin-bottom: 15px;
+}
+
+.main-texto h2 {
+    /* h2 da section servicos */
+    font-size: var(--h2-font);
+    line-height: 1;
+}
+
+.s-icons i {
+    /* estilo da div */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    /* estilo do h3 da div */
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--second-color);
+    margin-bottom: 15px;
+}
+
+.box p {
+    /* estilo do p da div */
+    color: var(--second-color);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.produtos-content {
+    /* estilo da section produtos */
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.produtos-content2 {
+    /* estilo da section produtos */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.row {
+    /* estilo da div */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#row1{
+    height: 430px;
+}
+
+.row img {
+    /* estilo da img dentro da div */
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    /* estilo da div dos textos */
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #000);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+
+.layer h5 {
+    /* estilo do h5 da div */
+    color: var(--second-color);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.layer p {
+    /* estilo do p da div */
+    color: var(--second-color);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.layer i {
+    /* estilo do icone da div */
+    color: var(--text-color);
+    margin-top: 20px;
+    font-size: 1.5rem;
+    background: var(--main-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+#link-icon:hover {
+    /* hover icone da section portfolio */
+    color: var(--main-color);
+    background-color: transparent;
+    transition: all .90s ease;
+    transform: scale(1.1);
+}
+
+.row:hover img {
+    /* hover da img dentro da row */
+    transform: scale(1.1);
+}
+
+.row:hover .layer {
+    /* hover da layer dentro da row */
+    height: 100%;
+}
+
+#detalhes {
+    text-align: center;
+}
+
+.detalhes-h2 {
+    font-size: 2rem;
+}
+
+.detalhes-p {
+    font-size: 1.2rem;
+    color: #595959;
+    margin-top: 1.5rem;
+}
+
+#detalhes-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: var(--bg-color);
+    color: var(--second-color);
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    /* top, right, bottom e left */
+}
+
+/* SECTION PRODUTOS ==================================================== */
+
+/* SECTION FOOTER =====================================================  */
+#footer {
+    background-color: #F4F7FC;
+    margin-top: 5rem;
+    color: var(--text-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer h2{
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.alinhar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container1{
+    width: 30%;
+    margin-right: 7%;
+}
+
+.container{
+    margin-right: 7%;
+}
+
+
+.container .texto {
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.container .texto a {
+    text-decoration: none;
+    color: #008EDE;
+}
+
+.texto-p{
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+}
+
+.container .texto a:hover {
+    color: var(--text-color);
+    transition: all .45s ease;
+}
+
+#icon-footer {
+    font-size: 2.3rem;
+    color: var(--text-color);
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+    margin-right: 10px;
+}
+
+#icon-footer p{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#icon-footer:hover {
+    color: var(--main-color);
+    transform: translateY(5px);
+    transition: all .45s ease;
+}
+
+/* SECTION FOOTER =====================================================  */
+
+/* CSS RESPONSIVO =========================================== */
+@media (max-width: 840px) {
+
+    /* tela até 840px */
+    #menu-icon {
+        /* estilo do menu hamburguer */
+        /* sai do display none e mostra o menu */
+        display: block;
+    }
+
+    .navlist {
+        /* estilo da navlist - links header */
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--second-color);
+        text-align: left;
+        transition: all .45s ease;
+        box-shadow: 0 7px 7px -1px #ccc;
+    }
+
+    .navlist a {
+        /* estilo dos links da navlist */
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
+
+    .navlist a:hover {
+        /* hover dos links da navlist */
+        color: var(--second-color);
+    }
+
+    .navlist a:active {
+        /* links da navlist quando ativados */
+        color: var(--text-color);
+    }
+
+    .navlist.open {
+        /* links da navlist quando abertos*/
+        top: 100%;
+    }
+
+}
+
+/* CSS RESPONSIVO =========================================== */
