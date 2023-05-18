@@ -103,12 +103,21 @@ section {
     align-items: center;
 }
 
+/*
 .home video {
     position: absolute;
     left: 0;
     object-fit: cover;
     width: 100%;
+    filter: brightness(80%);
+}
+*/
 
+.home img{
+    position: absolute;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
     filter: brightness(80%);
 }
 
