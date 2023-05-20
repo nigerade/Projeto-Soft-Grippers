@@ -304,7 +304,6 @@ section:not(.section2):not(#footer) {
 
 
 /* SECTION PRODUTOS ==================================================== */
-
 .main-texto {
     /* texto da section servicos */
     text-align: center;
@@ -372,7 +371,7 @@ section:not(.section2):not(#footer) {
 }
 
 #row1 {
-    height: 430px;
+    height: 100%;
 }
 
 .row img {
@@ -654,7 +653,6 @@ section:not(.section2):not(#footer) {
         /* links da navlist quando abertos*/
         top: 100%;
     }
-
 }
 
 /* CSS RESPONSIVO =========================================== */
