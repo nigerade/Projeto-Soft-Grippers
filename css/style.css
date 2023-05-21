@@ -606,6 +606,135 @@ section:not(.section2):not(#footer) {
 
 /* SECTION FOOTER =====================================================  */
 
+/* SOBRE ==============================================================  */
+.container-sobre {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.texto-sobre {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+#h2-sobre {
+    font-size: 2rem;
+}
+
+#h4-sobre {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.p-sobre {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+#p-sobre {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#icon-sobre {
+    font-size: 6rem;
+}
+
+#icon-sobre:hover {
+    transition: all .45s ease;
+    transform: scale(1.1);
+}
+
+/* SOBRE ==============================================================  */
+
+/* SECTION CONTATO ====================================================  */
+.contact {
+    /* estilo da section contato */
+    background: var(--second-bg-color);
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.contact-text{
+    margin-bottom: 4rem;
+}
+
+.contact-text h4 {
+    /* estilo do h4 da section contato */
+    color: var(--text-color);
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact-text h2 {
+    /* estilo do h2 da section contato */
+    font-size: var(--h2-font);
+    line-height: 1;
+    text-align: center;
+}
+
+.contact-text p {
+    /* estilo do p da section contato */
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    /* estilo form da section contato */
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    /* estilo do form, input, e textarea form da section contato */
+    width: 100%;
+    padding: 14px;
+    background: var(--bg-color);
+    color: var(--second-color);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    /* estilo do textarea da section contato */
+    resize: none;
+    height: 240px;
+    margin-bottom: 1rem;
+}
+
+.contact-form .submit {
+    /* estilo do botao enviar da section contato */
+    display: inline-block;
+    font-size: 16px;
+    background: var(--main-color);
+    color: var(--text-color);
+    transition: all .45s ease;
+    font-weight: bold;
+}
+
+.contact-form .submit:hover {
+    /* hover do botao enviar da section contato */
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+/* SECTION CONTATO ====================================================  */
+
 /* CSS RESPONSIVO =========================================== */
 @media (max-width: 840px) {
 
