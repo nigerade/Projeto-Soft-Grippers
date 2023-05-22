@@ -16,13 +16,14 @@
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
+    --muller-font: "Muller";
+    --grover-font: "Grover Caps";
 }
 
 body {
     background: var(--second-color);
     color: var(--text-color);
     font-family: Arial, Helvetica, sans-serif;
-    height: 100px;
 }
 
 /* SECTION PRINCIPAL =================================================== */
@@ -127,7 +128,7 @@ section:not(.section2):not(#footer) {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 20%;
 }
 
 .home .home-text h1 {
@@ -292,7 +293,7 @@ section:not(.section2):not(#footer) {
 #seta {
     font-size: 4rem;
     color: #fff;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
 #seta:hover {
@@ -301,7 +302,6 @@ section:not(.section2):not(#footer) {
 }
 
 /* SECTION PRINCIPAL =================================================== */
-
 
 /* SECTION PRODUTOS ==================================================== */
 .main-texto {
@@ -618,11 +618,11 @@ section:not(.section2):not(#footer) {
 }
 
 #h2-sobre {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #h4-sobre {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
     margin-top: 1rem;
 }
@@ -630,6 +630,7 @@ section:not(.section2):not(#footer) {
 .p-sobre {
     margin-top: 2rem;
     text-align: left;
+    font-size: 1.1rem;
 }
 
 #p-sobre {
@@ -663,17 +664,18 @@ section:not(.section2):not(#footer) {
     margin-top: 5rem;
 }
 
-.contact-text{
+.contact-text {
     margin-bottom: 4rem;
 }
 
 .contact-text h4 {
     /* estilo do h4 da section contato */
     color: var(--text-color);
-    margin: 18px 0;
+    margin: 2.5rem;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    font-family: var(--muller-font);
 }
 
 .contact-text h2 {
@@ -705,9 +707,11 @@ form textarea {
     color: var(--second-color);
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 1.2rem;
     border-radius: 8px;
     margin-bottom: 10px;
+    font-family: var(--muller-font);
+    line-height: 1.2;
 }
 
 .contact-form textarea {
@@ -720,7 +724,7 @@ form textarea {
 .contact-form .submit {
     /* estilo do botao enviar da section contato */
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.2rem;
     background: var(--main-color);
     color: var(--text-color);
     transition: all .45s ease;
@@ -734,6 +738,118 @@ form textarea {
 }
 
 /* SECTION CONTATO ====================================================  */
+
+/* SECTION PRODUTOS ===================================================  */
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--main-color);
+}
+
+#section-produtos {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: var(--second-color);
+    width: 320px;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 40px 0;
+}
+
+.image-content, .card-content {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content {
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+
+}
+
+.name {
+    font-size: 1.7rem;
+    font-weight: 550;
+    color: #333;
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.button-produtos {
+    border: none;
+    font-size: 1rem;
+    color: var(--second-color);
+    padding: 0.5rem 1rem;
+    background-color: var(--main-color);
+    border-radius: 6px;
+    margin: 0.9rem;
+    cursor: pointer;
+}
+
+.button-produtos:hover {
+    transition: all .45s ease;
+    transform: scale(1.1);
+    background-color: var(--main-color);
+    filter: brightness(105%);
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--main-color);
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before, .overlay::after {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+    background-color: var(--main-color);
+    right: 0;
+    bottom: -40px;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: var(--second-color);
+}
+/* SECTION PRODUTOS ===================================================  */
 
 /* CSS RESPONSIVO =========================================== */
 @media (max-width: 840px) {
