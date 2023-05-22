@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "Grover Caps";
+    src: url(../fonts/Grover\ Caps\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url(../fonts/Muller\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Grover Caps Bold";
+    src: url(../fonts/Grover\ Caps\ Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Muller Bold";
+    src: url(../fonts/Muller\ Bold.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +37,9 @@
     --h2-font: 3rem;
     --p-font: 1.1rem;
     --muller-font: "Muller";
+    --muller-font-b: "Muller Bold";
     --grover-font: "Grover Caps";
+    --grover-font-b: "Grover Caps Bold";
 }
 
 body {
