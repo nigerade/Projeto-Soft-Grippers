@@ -1,0 +1,82 @@
+/* SECTION CONTATO ====================================================  */
+.contact {
+    /* estilo da section contato */
+    background: var(--second-bg-color);
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.contact-text {
+    margin-bottom: 4rem;
+}
+
+.contact-text h4 {
+    /* estilo do h4 da section contato */
+    color: var(--text-color);
+    margin: 2.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: var(--muller-font);
+}
+
+.contact-text h2 {
+    /* estilo do h2 da section contato */
+    font-size: var(--h2-font);
+    line-height: 1;
+    text-align: center;
+}
+
+.contact-text p {
+    /* estilo do p da section contato */
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    /* estilo form da section contato */
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    /* estilo do form, input, e textarea form da section contato */
+    width: 100%;
+    padding: 14px;
+    background: var(--bg-color);
+    color: var(--second-color);
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-family: var(--muller-font);
+    line-height: 1.2;
+}
+
+.contact-form textarea {
+    /* estilo do textarea da section contato */
+    resize: none;
+    height: 240px;
+    margin-bottom: 1rem;
+}
+
+.contact-form .submit {
+    /* estilo do botao enviar da section contato */
+    display: inline-block;
+    font-size: 1.2rem;
+    background: var(--main-color);
+    color: var(--text-color);
+    transition: all .45s ease;
+    font-weight: bold;
+}
+
+.contact-form .submit:hover {
+    /* hover do botao enviar da section contato */
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+/* SECTION CONTATO ====================================================  */

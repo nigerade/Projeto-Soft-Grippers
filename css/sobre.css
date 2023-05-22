@@ -1,0 +1,49 @@
+/* SOBRE ==============================================================  */
+.container-sobre {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.texto-sobre {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+#h2-sobre {
+    font-size: 2.5rem;
+}
+
+#h4-sobre {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.p-sobre {
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+#p-sobre {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#icon-sobre {
+    font-size: 6rem;
+}
+
+#icon-sobre:hover {
+    transition: all .45s ease;
+    transform: scale(1.1);
+}
+
+/* SOBRE ==============================================================  */
