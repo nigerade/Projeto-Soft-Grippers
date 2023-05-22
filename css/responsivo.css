@@ -47,4 +47,16 @@
     }
 }
 
+/* SECTION PRODUTOS ===================== */
+@media (max-width: 768px) {
+    #swiper-navBtn {
+        display: none;
+    }
+
+    .slide-content {
+        margin: 0 10px;
+    }
+}
+/* SECTION PRODUTOS ===================== */
+
 /* CSS RESPONSIVO =========================================== */
