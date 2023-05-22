@@ -16,10 +16,10 @@
 
 #section-produtos {
     min-height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #efefef;
+    background-color: var(--second-color);
+    margin-top: 2rem;
 }
 
 .card {
@@ -61,10 +61,12 @@
 }
 
 .description {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-color);
     text-align: center;
     margin-top: 1rem;
+    font-family: "Muller";
+    line-height: 1.5;
 }
 
 .button-produtos {
@@ -76,6 +78,7 @@
     border-radius: 6px;
     margin: 0.9rem;
     cursor: pointer;
+    box-shadow: 0 3px 3px -1px #ccc;
 }
 
 .button-produtos:hover {
@@ -130,6 +133,16 @@
     left: 0;
 }
 
+.swiper-button-next:hover {
+    transition: all .45s ease;
+    transform: translateX(5px);
+}
+
+.swiper-button-prev:hover {
+    transition: all .45s ease;
+    transform: translateX(-5px);
+}
+
 .swiper-pagination-bullet {
     color: var(--bg-color);
     opacity: 1;
@@ -138,6 +151,20 @@
 .swiper-pagination-bullet-active {
     color: var(--bg-color);
     filter: brightness(105%);
+}
+
+.div-h2-produtos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#h2-produtos{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.div-button-produtos{
+    margin-top: 3rem;
 }
 
 /* SECTION PRODUTOS ===================================================  */

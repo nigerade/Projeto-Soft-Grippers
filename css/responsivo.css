@@ -57,6 +57,43 @@
         margin: 0 10px;
     }
 }
+
 /* SECTION PRODUTOS ===================== */
+
+/* SECTION FOOTER ===================== */
+@media (max-width: 1000px) {
+    #div-footer3{
+        justify-content: center;
+        gap: 1.2rem;
+    }
+}
+
+@media (max-width: 564px) {
+    #footer-container{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #icon-footer{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 556px) {
+    #h2-footer3{
+        text-align: center;
+    }
+}
+
+@media (max-width: 445px) {
+    .navlist-footer3 a{
+        display: none;
+    }
+
+    #div-footer3{
+        gap: 0;
+    }
+}
+/* SECTION FOOTER ===================== */
 
 /* CSS RESPONSIVO =========================================== */

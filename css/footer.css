@@ -102,10 +102,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .navlist-footer3 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .navlist-footer3 a {

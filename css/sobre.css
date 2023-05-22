@@ -5,12 +5,13 @@
 }
 
 .texto-sobre {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 1rem;
 }
 
 #h2-sobre {
     font-size: 2.5rem;
+    margin-top: 3rem;
 }
 
 #h4-sobre {
@@ -20,9 +21,11 @@
 }
 
 .p-sobre {
-    margin-top: 2rem;
+    margin-top: 2.3rem;
     text-align: left;
     font-size: 1.1rem;
+    font-family: "Muller";
+    line-height: 1.5;
 }
 
 #p-sobre {
