@@ -73,14 +73,9 @@
     line-height: 1.5;
 }
 
-.div-button-produtos {
-    margin-top: 3rem;
-}
-
 #h2-documentacao{
     text-align: center;
     font-size: 2rem;
-    margin-top: 3rem;
 }
 
 .p-documentacao{
@@ -98,6 +93,7 @@
     align-items: center;
     border-radius: 1rem;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 #pdf-baixar{
@@ -117,5 +113,13 @@
 
 #p-documentacao{
     font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+#div-baixar2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /* SECTION TULIPA ===================================================  */
