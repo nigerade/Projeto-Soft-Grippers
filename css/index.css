@@ -176,16 +176,11 @@ section:not(.section2):not(#footer) {
     margin: 0 0 35px;
     font-size: 3rem;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.1;   
 }
 
-.home-text p {
-    /* texto: "Técnico formado..." */
-    color: var(--text-color);
-    font-size: var(--p-font);
-    line-height: 1.8;
-    margin-bottom: 40px;
-    font-family: "Muller";
+#h3-home-text{
+    margin-top: 3rem;
 }
 
 .button {
@@ -193,6 +188,7 @@ section:not(.section2):not(#footer) {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .btn {
