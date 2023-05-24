@@ -96,4 +96,12 @@
 }
 /* SECTION FOOTER ===================== */
 
+/* SECTION PRODUTOS =================== */
+@media (max-width: 510px){
+    section{
+        padding: 0;
+    }
+}
+/* SECTION PRODUTOS =================== */
+
 /* CSS RESPONSIVO =========================================== */
