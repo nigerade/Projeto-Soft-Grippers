@@ -51,7 +51,7 @@
 }
 
 #icon-footer {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: var(--second-color);
     display: inline-flex;
     flex-wrap: wrap;
@@ -103,6 +103,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0.7rem 0 0.7rem 0;
 }
 
 .navlist-footer3 {
@@ -125,7 +126,8 @@
 }
 
 #h2-footer3 {
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 /* SECTION FOOTER =====================================================  */

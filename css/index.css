@@ -61,7 +61,7 @@ header {
     display: none;
 }
 
-section:not(.section2):not(#footer) {
+section:not(.section2):not(#footer):not(#post-header) {
     /* configuracao padrao para todas as sessoes */
     padding: 160px 15% 120px;
 }
@@ -101,31 +101,6 @@ section:not(.section2):not(#footer) {
     margin: 0 auto;
     text-align: center;
     margin-top: 20%;
-}
-
-.home .home-text h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 5.5em;
-    text-transform: uppercase;
-    color: #fff;
-    text-shadow: 5px 2px #3a3a3a;
-}
-
-.home .home-text h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.8em;
-    text-transform: uppercase;
-    color: #fff;
-    text-shadow: 5px 2px #3a3a3a;
-}
-
-.home .home-text p {
-    margin-top: 3rem;
-    font-size: 1.5em;
-    color: #fff;
-    text-shadow: 2px 2px #3a3a3a;
 }
 
 .slide {
@@ -188,7 +163,7 @@ section:not(.section2):not(#footer) {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 100%;
 }
 
 .btn {

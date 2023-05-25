@@ -62,46 +62,83 @@
 
 /* SECTION FOOTER ===================== */
 @media (max-width: 1000px) {
-    #div-footer3{
+    #div-footer3 {
         justify-content: center;
         gap: 1.2rem;
     }
 }
 
 @media (max-width: 564px) {
-    #footer-container{
+    #footer-container {
         justify-content: center;
         gap: 1rem;
     }
 
-    #icon-footer{
+    #icon-footer {
         margin-bottom: 1rem;
     }
 }
 
 @media (max-width: 556px) {
-    #h2-footer3{
+    #h2-footer3 {
         text-align: center;
     }
 }
 
 @media (max-width: 445px) {
-    .navlist-footer3 a{
+    .navlist-footer3 a {
         display: none;
     }
 
-    #div-footer3{
+    #div-footer3 {
         gap: 0;
     }
 }
+
 /* SECTION FOOTER ===================== */
 
 /* SECTION PRODUTOS =================== */
-@media (max-width: 510px){
-    section{
+@media (max-width: 510px) {
+    section {
         padding: 0;
     }
 }
+
 /* SECTION PRODUTOS =================== */
+
+/* SECTION PÓS-NOTICIAS =================== */
+@media (max-width: 1060px) {
+    .container {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .home-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav {
+        padding: 14px 0;
+    }
+
+    .post-container {
+        margin: 0 auto;
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 10px 0;
+    }
+
+    section{
+        padding: 2rem 0;
+    }
+}
+
+/* SECTION PÓS-NOTICIAS =================== */
 
 /* CSS RESPONSIVO =========================================== */
