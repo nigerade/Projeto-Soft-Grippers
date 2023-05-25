@@ -101,6 +101,11 @@
     color: #f40f02 ;
 }
 
+#pdf-baixar:hover{
+    transition: all .45s ease;
+    transform: scale(1.1);
+}
+
 #icon-baixar{
     font-size: 3rem;
     color: var(--text-color);
@@ -108,7 +113,7 @@
 
 #icon-baixar:hover{
     transition: all .45s ease;
-    transform: scale(1.1);
+    transform: translateY(5px);
 }
 
 #p-documentacao{

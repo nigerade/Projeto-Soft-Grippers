@@ -54,12 +54,15 @@
     font-weight: 500;
     text-transform: uppercase;
     color: var(--main-color);
+    font-family: "Muller Bold";
+    margin-top: 1rem;
 }
 
 .post-title {
     font-size: 1.3rem;
     font-weight: 600;
     color: var(--text-color);
+    margin-top: 1rem;
 
     /* Pro título continuar em 2 Linhas separadas */
     display: -webkit-box;
@@ -74,12 +77,16 @@
     text-transform: uppercase;
     font: 400;
     margin-top: 4px;
+    font-family: "Muller";
+    margin-top: 1rem;
 }
 
 .post-description {
     font-size: 0.9rem;
     line-height: 1.5rem;
     margin: 5px 0 10px;
+    font-family: "Muller";
+    margin-top: 1rem;   
 
     /* Pro título continuar em 3 Linhas separadas */
     display: -webkit-box;
