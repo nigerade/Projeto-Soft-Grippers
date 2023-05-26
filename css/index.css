@@ -61,7 +61,7 @@ header {
     display: none;
 }
 
-section:not(.section2):not(#footer):not(#post-header) {
+section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     /* configuracao padrao para todas as sessoes */
     padding: 160px 15% 120px;
 }

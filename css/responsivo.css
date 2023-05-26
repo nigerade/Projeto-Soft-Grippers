@@ -134,11 +134,54 @@
         padding: 10px 0;
     }
 
-    section{
+    section {
         padding: 2rem 0;
+    }
+
+    .header-content {
+        margin-top: 3rem !important;
+    }
+
+    .home {
+        min-height: 380px;
+    }
+
+    .home-title {
+        font-size: 3rem;
+    }
+
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .header-img {
+        height: 370px;
+    }
+
+    .post-header {
+        height: 435px;
+    }
+}
+
+@media (max-width: 570px) {
+    .post-header {
+        height: 390px;
+    }
+
+    .header-title {
+        width: 100%;
+    }
+
+    .header-img {
+        height: 340px;
     }
 }
 
 /* SECTION PÓS-NOTICIAS =================== */
+
+/* SECTION NOTÍCIAS ======================= */
+
+
+/* SECTION NOTÍCIAS ======================= */
 
 /* CSS RESPONSIVO =========================================== */
