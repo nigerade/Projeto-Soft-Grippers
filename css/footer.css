@@ -14,11 +14,32 @@
     margin-bottom: 2.5rem;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer-box{
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
 .alinhar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.footer-description {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    font-family: "Muller";
+    margin-top: 1rem;
 }
 
 .container1 {
@@ -128,6 +149,15 @@
 #h2-footer3 {
     font-weight: 500;
     font-size: 1rem;
+}
+
+#a-footer{
+    color: #008EDE;
+}
+
+#a-footer:hover{
+    color: var(--main-color);
+    transition: all .45s ease;
 }
 
 /* SECTION FOOTER =====================================================  */

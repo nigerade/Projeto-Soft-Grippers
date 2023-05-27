@@ -108,7 +108,7 @@
 
 /* SECTION PÓS-NOTICIAS =================== */
 @media (max-width: 1060px) {
-    .container {
+    .container2 {
         margin: 0 auto;
         width: 95%;
     }
@@ -183,5 +183,10 @@
 
 
 /* SECTION NOTÍCIAS ======================= */
+
+
+/* SECTION FOOTER ========================= */
+
+/* SECTION FOOTER ========================= */
 
 /* CSS RESPONSIVO =========================================== */

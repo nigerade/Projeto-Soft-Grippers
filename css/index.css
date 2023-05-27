@@ -151,10 +151,10 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     margin: 0 0 35px;
     font-size: 3rem;
     font-weight: 700;
-    line-height: 1.1;   
+    line-height: 1.1;
 }
 
-#h3-home-text{
+#h3-home-text {
     margin-top: 3rem;
 }
 
@@ -164,6 +164,12 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     align-items: center;
     justify-content: center;
     margin-top: 100%;
+}
+
+.button2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn {
