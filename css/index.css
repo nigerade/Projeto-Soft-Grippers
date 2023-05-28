@@ -14,7 +14,7 @@ header {
     transition: all .45s ease;
 }
 
-section {
+section:not(.section-fingers-documentacao) {
     padding: 160px 15% 160px;
 }
 

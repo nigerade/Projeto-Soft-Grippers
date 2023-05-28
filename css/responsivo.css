@@ -99,8 +99,43 @@
 
 /* SECTION PRODUTOS =================== */
 @media (max-width: 600px){
-    section{
-        padding: 120px 5% 120px;
+    .section-tulipa{
+        padding: 160px 0 !important;
+    }
+
+    .section-fingers{
+        padding: 160px 0 !important;
+    }
+
+    .section-flexgripper{
+        padding: 160px 0 !important;
+    }
+
+    .card-image .card-img {
+        height: 200px !important;
+    }
+
+    .div-baixar {
+        margin: 2rem !important;
+        justify-content: space-between !important;
+        padding: 1rem !important;
+    }
+
+    #div-baixar2 {
+        justify-content: ce !important;
+    }
+
+    #p-documentacao {
+        font-size: 1.1rem !important;
+        text-align: center !important;
+    }
+
+    #pdf-baixar {
+        display: none;
+    }
+
+    #p-documentacao {
+        margin-left: 0;
     }
 }
 
