@@ -169,6 +169,14 @@
     .header-img {
         height: 200px !important;
     }
+
+    .section-main-pos-noticias{
+        padding: 3% 10% !important;
+    }
+
+    .header-content {
+        margin-top: 12rem !important;
+    }
 }
 
 /* SECTION PÓS-NOTÍCIAS =============== */

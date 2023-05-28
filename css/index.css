@@ -302,7 +302,6 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
-    box-shadow: 4px 4px 2px hsl(355deg 25% 15% / 10%);
 }
 
 .produtos-content2 {
@@ -312,7 +311,6 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
-    box-shadow: 6px 6px 2px hsl(355deg 25% 15% / 10%);
 }
 
 .row {
@@ -329,11 +327,12 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
 
 .row img {
     /* estilo da img dentro da div */
-    width: 100%;
     border-radius: 8px;
     height: 100%;
     display: block;
     transition: transform 0.5s;
+    border: 4px solid var(--main-color);
+    border-radius: 25px 25px 25px 25px;
 }
 
 .layer {
