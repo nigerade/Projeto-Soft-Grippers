@@ -11,7 +11,7 @@
     align-items: center;
     column-gap: 2.5rem;
     row-gap: 2rem;
-    margin-top: 2rem !important;
+    margin-top: 4rem !important;
     flex-wrap: wrap;
 }
 
@@ -19,6 +19,11 @@
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+.filter-item:hover {
+    transition: all .45s ease;
+    transform: scale(1.1);
 }
 
 .active-filter {

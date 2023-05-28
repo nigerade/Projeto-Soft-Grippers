@@ -1,4 +1,8 @@
 /* SECTION TULIPA ===================================================  */
+section{
+    padding: 3% 10% !important;
+}
+
 #post-header {
     padding: 120px 15%;
 }
@@ -6,14 +10,14 @@
 #h2-pos-noticia {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem !important;
+    margin-top: 12rem !important;
 }
 
 #h2-pos-noticia {
@@ -25,7 +29,7 @@
 }
 
 .back-home {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: var(--text-color);
 }
 
@@ -48,7 +52,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .sub-heading {
@@ -56,8 +60,8 @@
 }
 
 .post-text {
-    font-size: 1rem;
-    line-height: 1.7rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     margin: 1rem 0;
     text-align: left;
     font-family: "Muller";

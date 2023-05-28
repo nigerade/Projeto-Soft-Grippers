@@ -98,95 +98,44 @@
 /* SECTION FOOTER ===================== */
 
 /* SECTION PRODUTOS =================== */
+@media (max-width: 600px){
+    section{
+        padding: 120px 5% 120px;
+    }
+}
+
 @media (max-width: 510px) {
-    section {
-        padding: 0;
+    #section-produtos {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
 /* SECTION PRODUTOS =================== */
 
-/* SECTION PÓS-NOTICIAS =================== */
-@media (max-width: 1060px) {
-    .container2 {
-        margin: 0 auto;
-        width: 95%;
+/* SECTION PÓS-NOTÍCIAS =============== */
+@media (max-width: 470px) {
+    #h2-pos-noticia {
+        font-size: 1.5rem !important;
     }
 
-    .home-text {
-        width: 100%;
-    }
-}
-
-@media (max-width: 800px) {
-    .nav {
-        padding: 14px 0;
+    .sub-header {
+        font-size: 1rem !important;
     }
 
-    .post-container {
-        margin: 0 auto;
-        width: 95%;
-    }
-}
-
-@media (max-width: 768px) {
-    .nav {
-        padding: 10px 0;
+    .post-text {
+        font-size: 1rem !important;
     }
 
-    section {
-        padding: 2rem 0;
-    }
-
-    .header-content {
-        margin-top: 3rem !important;
-    }
-
-    .home {
-        min-height: 380px;
-    }
-
-    .home-title {
-        font-size: 3rem;
-    }
-
-    .header-title {
-        font-size: 2rem;
+    .back-home {
+        font-size: 0.9rem !important;
     }
 
     .header-img {
-        height: 370px;
-    }
-
-    .post-header {
-        height: 435px;
+        height: 200px !important;
     }
 }
 
-@media (max-width: 570px) {
-    .post-header {
-        height: 390px;
-    }
-
-    .header-title {
-        width: 100%;
-    }
-
-    .header-img {
-        height: 340px;
-    }
-}
-
-/* SECTION PÓS-NOTICIAS =================== */
-
-/* SECTION NOTÍCIAS ======================= */
-
-
-/* SECTION NOTÍCIAS ======================= */
-
-
-/* SECTION FOOTER ========================= */
-
-/* SECTION FOOTER ========================= */
+/* SECTION PÓS-NOTÍCIAS =============== */
 
 /* CSS RESPONSIVO =========================================== */
