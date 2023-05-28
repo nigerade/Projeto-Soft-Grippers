@@ -302,6 +302,7 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
+    box-shadow: 4px 4px 2px hsl(355deg 25% 15% / 10%);
 }
 
 .produtos-content2 {
@@ -311,6 +312,7 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
+    box-shadow: 6px 6px 2px hsl(355deg 25% 15% / 10%);
 }
 
 .row {

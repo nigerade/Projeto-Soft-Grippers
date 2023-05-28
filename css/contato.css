@@ -59,6 +59,7 @@ form textarea {
     margin-bottom: 1.2rem;
     font-family: var(--muller-font);
     line-height: 1.2;
+    box-shadow: 3px 3px 2px hsl(355deg 25% 15% / 10%);
 }
 
 .contact-form textarea {
@@ -76,6 +77,7 @@ form textarea {
     color: var(--second-color);
     transition: all .45s ease;
     font-weight: bold;
+    box-shadow: 5px 5px 5px hsl(355deg 25% 15% / 10%);
 }
 
 .contact-form .submit:hover {

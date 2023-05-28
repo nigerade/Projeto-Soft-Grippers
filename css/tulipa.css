@@ -1,5 +1,5 @@
 /* SECTION TULIPA ===================================================  */
-#h2-tulipa{
+#h2-tulipa {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 3rem;
@@ -14,8 +14,9 @@
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
-    border: 4px solid var(--bg-color);
+    border: 4px solid var(--main-color);
     border-radius: 25px 0 25px 0;
+    box-shadow: 6px 6px 2px hsl(355deg 25% 15% / 10%);
 }
 
 #section-produtos {
@@ -34,7 +35,7 @@
 .slide-content {
     margin: 0 40px;
     overflow: hidden;
-    
+
 }
 
 .slide-container {
@@ -72,18 +73,18 @@
     line-height: 1.5;
 }
 
-#h2-documentacao{
+#h2-documentacao {
     text-align: center;
     font-size: 2rem;
 }
 
-.p-documentacao{
+.p-documentacao {
     text-align: center;
     margin-top: 2rem;
     color: #595959;
 }
 
-.div-baixar{
+.div-baixar {
     background-color: #fff;
     box-shadow: 0 7px 7px -1px #ccc;
     padding: 2rem;
@@ -95,35 +96,36 @@
     flex-wrap: wrap;
 }
 
-#pdf-baixar{
+#pdf-baixar {
     font-size: 3rem;
-    color: #f40f02 ;
+    color: #f40f02;
 }
 
-#pdf-baixar:hover{
+#pdf-baixar:hover {
     transition: all .45s ease;
     transform: scale(1.1);
 }
 
-#icon-baixar{
+#icon-baixar {
     font-size: 3rem;
     color: var(--text-color);
 }
 
-#icon-baixar:hover{
+#icon-baixar:hover {
     transition: all .45s ease;
     transform: translateY(5px);
 }
 
-#p-documentacao{
+#p-documentacao {
     font-size: 1.6rem;
     margin-left: 1rem;
 }
 
-#div-baixar2{
+#div-baixar2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
+
 /* SECTION TULIPA ===================================================  */
