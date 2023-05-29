@@ -1,5 +1,6 @@
 /* SECTION PRINCIPAL =================================================== */
 header {
+    /* estilo do header */
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,6 +13,7 @@ header {
     padding: 22px 15%;
     box-shadow: 3px 1.4px 5px 4px #ccc;
     transition: all .45s ease;
+    overflow: hidden;
 }
 
 section:not(.section-fingers-documentacao) {
@@ -65,21 +67,50 @@ section:not(.section-fingers-documentacao) {
     display: none;
 }
 
-/*
-section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
-    /* configuracao padrao para todas as sessoes */
-/*padding: 160px 15% 120px;
-}*/
-
 .home {
     /* estilo da section home */
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
+
+.home {
+    background-image: url(../imgs/fundo.png);
+}
+
+/*
+figure {
+    margin: 0;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+}
+
+.hero-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -9999;
+}
+*/
 
 /*
 .home video {
@@ -97,6 +128,9 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
     object-fit: cover;
     width: 100%;
     filter: brightness(80%);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .home .home-text {
@@ -428,3 +462,4 @@ section:not(.section2):not(#footer):not(#post-header):not(#texto-pos) {
 }
 
 /* SECTION PRINCIPAL =================================================== */
+

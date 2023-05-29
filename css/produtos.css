@@ -15,13 +15,16 @@
 .slide-content {
     margin: 0 40px;
     overflow: hidden;
-    
+    background: transparent;
 }
 
 .slide-container {
     max-width: 1120px;
     width: 100%;
-    padding-bottom: 4rem;
+}
+
+#pagination{
+    padding-top: 4rem; 
 }
 
 .image-content, .card-content {
@@ -87,7 +90,6 @@
 
 
 #swiper-navBtn {
-    display: none;
     color: var(--main-color);
 }
 
@@ -101,11 +103,11 @@
 }
 
 .swiper-button-next {
-    right: 0;
+    padding-left: 0.85rem;
 }
 
 .swiper-button-prev {
-    left: 0;
+    padding-right: 0.85rem;
 }
 
 .swiper-button-next:hover {

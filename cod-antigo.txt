@@ -1,0 +1,63 @@
+para caso de merda e eu não conseguir colocar o video no paralax
+
+<section class="home" id="home">
+
+        <img src="../imgs/fundo.png" alt="">
+
+        <!--
+        <video autoplay muted loop>
+            <source src="../videos/video.mp4" type="video/mp4">
+        </video>
+        -->
+
+        <div class="home-text">
+
+
+
+            <div class="button">
+                <a href="produtos.html" target="_blank" class="btn">Produtos</a>
+                <a href="contato.html" target="_blank" class="btn2">Contato</a>
+            </div>
+
+            <div>
+                <a href="#produtos"><i id="seta" class='bx bxs-chevron-down'></i></a>
+            </div>
+        </div>
+    </section>
+
+    .home {
+    /* estilo da section home */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.home video {
+    position: absolute;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(80%);
+}
+*/
+
+.home img {
+    position: absolute;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.home .home-text {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%;
+}
