@@ -17,12 +17,13 @@ section{
 
 .contact-text h4 {
     /* estilo do h4 da section contato */
-    color: var(--text-color);
     margin: 2.5rem;
-    font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     font-family: var(--muller-font);
+    font-size: 1.3rem;
+    color: #595959;
+    font-family: var(--grover-font);
 }
 
 .contact-text h2 {

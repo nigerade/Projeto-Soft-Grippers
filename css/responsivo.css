@@ -47,6 +47,73 @@
     }
 }
 
+@media (max-width: 768px) {
+    .section-index {
+        padding: 160px 20% 160px !important;
+    }
+
+    .produtos-content2 {
+        grid-template-columns: none;
+        gap: 5rem;
+    }
+
+    .row img {
+        height: 260px;
+        width: 100%;
+    }
+
+    .main-texto h2 {
+        font-size: var(--h2-font);
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .button {
+        margin-top: 120% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-index {
+        padding: 160px 10% 160px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .section-index {
+        padding: 160px 5% 160px !important;
+    }
+
+    .button {
+        margin-top: 150% !important;
+    }
+
+    .btn {
+        padding: 1rem;
+    }
+
+    .btn2 {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 510px) {
+    .logo {
+        width: 200px !important;
+        height: auto !important;
+    }
+
+    header {
+        padding: 1rem !important;
+    }
+
+    #menu-icon {
+        margin-right: 1rem;
+        font-size: 2.5rem;
+    }
+}
+
+
 /* SECTION PRODUTOS ===================== */
 @media (max-width: 768px) {
     #swiper-navBtn {
@@ -98,6 +165,16 @@
 /* SECTION FOOTER ===================== */
 
 /* SECTION PRODUTOS =================== */
+@media (max-width: 750px) {
+    #pdf-baixar {
+        display: none;
+    }
+
+    #p-documentacao {
+        font-size: 1.1rem !important;
+    }
+}
+
 @media (max-width: 600px) {
     .section-tulipa {
         padding: 160px 0 !important;
@@ -128,10 +205,6 @@
     #p-documentacao {
         font-size: 1.1rem !important;
         text-align: center !important;
-    }
-
-    #pdf-baixar {
-        display: none;
     }
 
     #p-documentacao {
