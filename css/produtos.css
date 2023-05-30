@@ -104,10 +104,32 @@
 
 .swiper-button-next {
     padding-left: 0.85rem;
+    -webkit-animation: desliza2 1s infinite alternate ease-in-out;
 }
 
 .swiper-button-prev {
     padding-right: 0.85rem;
+    -webkit-animation: desliza 1s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes desliza {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(0.5rem);
+    }
+}
+
+@-webkit-keyframes desliza2 {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(0.5rem);
+    }
 }
 
 .swiper-button-next:hover {
