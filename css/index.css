@@ -281,11 +281,24 @@ video {
     font-size: 4rem;
     color: #fff;
     padding-top: 2rem;
+    -webkit-animation: downarrow 1s infinite alternate ease-in-out;
 }
 
 #seta:hover {
     transition: all .45s ease;
     transform: translateY(10px);
+}
+
+@-webkit-keyframes downarrow {
+    0% {
+        -webkit-transform: translateY(0);
+        opacity: 0.4
+    }
+
+    100% {
+        -webkit-transform: translateY(0.4em);
+        opacity: 0.9
+    }
 }
 
 .main-texto {
