@@ -1,5 +1,5 @@
 /* SECTION TULIPA ===================================================  */
-#h2-tulipa{
+#h2-tulipa {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 3rem;
@@ -36,7 +36,7 @@
 .slide-content {
     margin: 0 40px;
     overflow: hidden;
-    
+
 }
 
 .slide-container {
@@ -49,6 +49,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card-content2 {
+    text-align: center;
+    margin-top: 5rem;
 }
 
 .image-content {
@@ -74,18 +79,33 @@
     line-height: 1.5;
 }
 
-#h2-documentacao{
+.description2 {
+    font-size: 1.5rem;
+    color: #008EDE;
+    text-align: left;
+    margin-top: 1rem;
+    font-family: "Muller";
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.description2:hover{
+    transition: all .45s ease;
+    color: var(--main-color);
+}
+
+#h2-documentacao {
     text-align: center;
     font-size: 2rem;
 }
 
-.p-documentacao{
+.p-documentacao {
     text-align: center;
     margin-top: 2rem;
     color: #595959;
 }
 
-.div-baixar{
+.div-baixar {
     background-color: #fff;
     box-shadow: 0 7px 7px -1px #ccc;
     padding: 2rem;
@@ -97,39 +117,46 @@
     flex-wrap: wrap;
 }
 
-#pdf-baixar{
+#pdf-baixar {
     font-size: 3rem;
-    color: #f40f02 ;
+    color: #f40f02;
 }
 
-#pdf-baixar:hover{
+#pdf-baixar:hover {
     transition: all .45s ease;
     transform: scale(1.1);
 }
 
-#icon-baixar{
+#icon-baixar {
     font-size: 3rem;
     color: var(--text-color);
 }
 
-#icon-baixar:hover{
+#icon-baixar:hover {
     transition: all .45s ease;
     transform: translateY(5px);
 }
 
-#p-documentacao{
+#p-documentacao {
     font-size: 1.6rem;
     margin-left: 1rem;
 }
 
-#div-baixar2{
+#div-baixar2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.section-fingers-documentacao{
+.section-fingers-documentacao {
     margin-top: 15% !important;
+}
+
+#video-produtos{
+    width: 700px;
+    height: 500px;
+    border-radius: 1rem;
+    margin-top: 4rem;
 }
 /* SECTION TULIPA ===================================================  */

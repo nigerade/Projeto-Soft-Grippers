@@ -165,6 +165,18 @@
 /* SECTION FOOTER ===================== */
 
 /* SECTION PRODUTOS =================== */
+@media (max-width: 1000px) {
+    #video-produtos {
+        width: 600px !important;
+    }
+}
+
+@media (max-width: 870px) {
+    #video-produtos {
+        width: 500px !important;
+    }
+}
+
 @media (max-width: 750px) {
     #pdf-baixar {
         display: none;
@@ -172,6 +184,10 @@
 
     #p-documentacao {
         font-size: 1.1rem !important;
+    }
+
+    #video-produtos {
+        width: 400px !important;
     }
 }
 
@@ -216,6 +232,25 @@
     #section-produtos {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    #video-produtos {
+        width: 350px !important;
+        height: auto;
+    }
+}
+
+@media (max-width: 370px) {
+    #video-produtos {
+        width: 300px !important;
+        height: auto;
+    }
+}
+
+@media (max-width: 350px) {
+    #video-produtos {
+        width: 270px !important;
+        height: auto;
     }
 }
 

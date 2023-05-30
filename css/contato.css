@@ -50,7 +50,7 @@ section{
 form textarea {
     /* estilo do form, input, e textarea form da section contato */
     width: 100%;
-    padding: 14px;
+    padding: 1.2rem;
     background: var(--bg-color);
     color: var(--second-color);
     border: none;
