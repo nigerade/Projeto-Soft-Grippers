@@ -128,7 +128,7 @@
     }
 
     100% {
-        -webkit-transform: translateX(0.5rem);
+        -webkit-transform: translateX(-0.5rem);
     }
 }
 
