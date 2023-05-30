@@ -285,6 +285,18 @@
     .header-content {
         margin-top: 12rem !important;
     }
+
+    #lista-noticia{
+        font-size: 1rem !important;
+        margin: 1rem 0 !important;
+        line-height: 2 !important;
+        padding: 0 8px;
+        list-style-type: none !important;
+    }
+
+    #id-description {
+        font-size: 1rem !important;
+    }
 }
 
 /* SECTION PÓS-NOTÍCIAS =============== */
