@@ -308,4 +308,17 @@
     }
 }
 
+/* SECTION SOBRE ========================= */
+@media (max-width: 768px) {
+    #p-sobre {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section{
+        padding: 160px 5% 160px !important;
+    }
+}
+
+/* SECTION SOBRE ========================= */
 /* CSS RESPONSIVO =========================================== */
