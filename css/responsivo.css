@@ -177,6 +177,22 @@
     }
 }
 
+@media (max-width: 768px) {
+    .card-image .card-img {
+        -webkit-animation: desliza 1s alternate ease-in-out;
+    }
+
+    @-webkit-keyframes desliza {
+        0% {
+            -webkit-transform: translateX(0);
+        }
+
+        100% {
+            -webkit-transform: translateX(-1rem);
+        }
+    }
+}
+
 @media (max-width: 750px) {
     #pdf-baixar {
         display: none;
@@ -286,7 +302,7 @@
         margin-top: 12rem !important;
     }
 
-    #lista-noticia{
+    #lista-noticia {
         font-size: 1rem !important;
         margin: 1rem 0 !important;
         line-height: 2 !important;
@@ -327,7 +343,7 @@
         margin-right: 0;
     }
 
-    section{
+    section {
         padding: 160px 5% 160px !important;
     }
 }
