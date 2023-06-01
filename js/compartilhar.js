@@ -1,6 +1,6 @@
 const link = encodeURI(window.location.href);
-const msg = encodeURIComponent('Hey, I found this article');
-const title = encodeURIComponent('Article or Post Title Here');
+const msg = encodeURIComponent('Olá, veja esta Notícia que achei!');
+const title = encodeURIComponent('Artigo ou Título da Notícia aqui');
 
 const fb = document.querySelector('.facebook');
 fb.href = `https://www.facebook.com/share.php?u=${link}`;
