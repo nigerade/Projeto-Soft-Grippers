@@ -9,8 +9,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background: #fff;
     padding: 22px 15%;
+    box-shadow: 3px 1.4px 5px 4px #ccc;
     transition: all .45s ease;
 }
 
