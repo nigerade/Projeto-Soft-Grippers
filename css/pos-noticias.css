@@ -81,7 +81,7 @@
     word-break: break-all;
 }
 
-#id-description:hover{
+#id-description:hover {
     color: var(--main-color);
     transition: all .45s ease;
 }
@@ -136,11 +136,57 @@
     margin-top: 2rem !important;
 }
 
-#lista-noticia{
+#lista-noticia {
     list-style-type: disc;
     font-family: "Muller" !important;
     font-size: 1.2rem;
     line-height: 1.5;
     margin-top: 1rem;
 }
+
+#share-container span {
+    display: block;
+    margin: 3rem auto;
+    font-size: 50px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#share-buttons i {
+    font-size: 100px;
+    margin: 20px;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #55acee;
+}
+
+.linkedin {
+    color: #0077b5;
+}
+
+.reddit {
+    color: #cb2027;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.telegram {
+    color: #229ED9;
+}
+
+.facebook, .twitter, .linkedin, .reddit, .whatsapp, .telegram {
+    opacity: 0.6;
+}
+
+.facebook:hover, .twitter:hover, .linkedin:hover, .reddit:hover, .whatsapp:hover, .telegram:hover {
+    opacity: 0.9;
+}
+
 /* SECTION TULIPA ===================================================  */
