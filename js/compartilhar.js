@@ -13,4 +13,4 @@ linkedIn.href = `https://www.linkedin.com/sharing/share-offsite/?url=${link}`;
 
 const whatsapp = document.querySelector('.whatsapp');
 whatsapp.href = `https://api.whatsapp.com/send?text=${msg}: ${link}`;
-
+//  ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023 

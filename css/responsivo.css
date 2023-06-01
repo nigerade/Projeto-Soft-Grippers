@@ -47,8 +47,8 @@
     }
 }
 
-@media (max-width: 1100px){
-    .produtos-content2{
+@media (max-width: 1100px) {
+    .produtos-content2 {
         grid-template-columns: none;
     }
 }
@@ -102,12 +102,12 @@
         padding: 1rem;
     }
 
-    .row img{
+    .row img {
         height: 220px !important;
     }
 }
 
-@media (max-width: 330px){
+@media (max-width: 330px) {
     .row img {
         height: 200px !important;
     }
@@ -366,3 +366,5 @@
 
 /* SECTION SOBRE ========================= */
 /* CSS RESPONSIVO =========================================== */
+
+/* ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023*/ 

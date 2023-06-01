@@ -18,3 +18,4 @@ $(document).ready(function () {
         $(this).addClass("active-filter").siblings().removeClass("active-filter");
     });
 });
+//  ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023 

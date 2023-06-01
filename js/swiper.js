@@ -37,3 +37,4 @@ var swiper = new Swiper(".slide-content", {
     },
 },
 });
+//  ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023 
