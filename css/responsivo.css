@@ -95,6 +95,16 @@
     .btn2 {
         padding: 1rem;
     }
+
+    .row img{
+        height: 220px !important;
+    }
+}
+
+@media (max-width: 330px){
+    .row img {
+        height: 200px !important;
+    }
 }
 
 @media (max-width: 510px) {
