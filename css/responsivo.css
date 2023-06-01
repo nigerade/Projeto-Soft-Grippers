@@ -47,6 +47,12 @@
     }
 }
 
+@media (max-width: 1100px){
+    .produtos-content2{
+        grid-template-columns: none;
+    }
+}
+
 @media (max-width: 768px) {
     .section-index {
         padding: 160px 20% 160px !important;

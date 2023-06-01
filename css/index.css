@@ -15,8 +15,12 @@ header {
     transition: all .45s ease;
 }
 
-section:not(.section-fingers-documentacao) {
+section:not(.section-fingers-documentacao){
     padding: 160px 15% 160px;
+}
+
+.section-index{
+    padding: 160px 20% 160px !important; 
 }
 
 .header2 {
@@ -83,8 +87,6 @@ section:not(.section-fingers-documentacao) {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
-
 
 .container-video {
     width: 100%;
