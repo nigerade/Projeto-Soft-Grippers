@@ -54,6 +54,7 @@
     object-fit: cover;
     object-position: center;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .category {

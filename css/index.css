@@ -15,12 +15,12 @@ header {
     transition: all .45s ease;
 }
 
-section:not(.section-fingers-documentacao){
+section:not(.section-fingers-documentacao) {
     padding: 160px 15% 160px;
 }
 
-.section-index{
-    padding: 160px 20% 160px !important; 
+.section-index {
+    padding: 160px 20% 160px !important;
 }
 
 .header2 {
@@ -504,5 +504,29 @@ section:not(.section-fingers-documentacao){
     /* top, right, bottom e left */
 }
 
+.go-top-btn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: var(--main-color);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    
+    color: #fff;
+    font-size: 22px ;
+    border-radius: 10px;
+}
+
+.go-top-btn i{
+    font-size: 3rem;
+}
+
+.go-top-btn:hover{
+    transition: all .45s ease;
+    transform: translateY(-7px);
+}
+
 /* SECTION PRINCIPAL =================================================== */
-/* ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023*/ 
+/* ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023*/

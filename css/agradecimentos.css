@@ -1,0 +1,15 @@
+#section-agradecimentos {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.back-home {
+    color: #008EDE !important;
+    font-size: 1.5rem !important;
+}
+
+.back-home:hover{
+    transition: all .45s ease;
+    color: #55c2b5 !important;
+}
