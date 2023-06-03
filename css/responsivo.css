@@ -90,11 +90,7 @@
         padding: 160px 5% 160px;
     }
 
-    #home .home-text{
-        margin-top: 0 !important;
-    }
-
-    .button{
+    .button {
         margin-top: 100% !important;
     }
 
@@ -102,11 +98,15 @@
         height: 90vh;
         top: 0;
     }
+
+    #seta {
+        color: var(--main-color);
+    }
 }
 
 @media (max-width: 425px) {
     .section-index {
-        padding: 160px 5% 160px !important;
+        padding: 0 5% 160px !important;
     }
 
     .button {
@@ -126,12 +126,8 @@
     }
 
     .home video {
-        height: 80vh;
+        height: 70vh;
         top: 0;
-    }
-
-    #seta{
-        color: var(--main-color);
     }
 }
 
