@@ -85,13 +85,32 @@
     }
 }
 
+@media (max-width: 500px) {
+    section:not(.section-fingers-documentacao) {
+        padding: 160px 5% 160px;
+    }
+
+    #home .home-text{
+        margin-top: 0 !important;
+    }
+
+    .button{
+        margin-top: 100% !important;
+    }
+
+    .home video {
+        height: 90vh;
+        top: 0;
+    }
+}
+
 @media (max-width: 425px) {
     .section-index {
         padding: 160px 5% 160px !important;
     }
 
     .button {
-        margin-top: 150% !important;
+        margin-top: 150%;
     }
 
     .btn {
@@ -104,6 +123,15 @@
 
     .row img {
         height: 220px !important;
+    }
+
+    .home video {
+        height: 80vh;
+        top: 0;
+    }
+
+    #seta{
+        color: var(--main-color);
     }
 }
 
